@@ -1,0 +1,1571 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.header{
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    background: rgba( 255, 255, 255, 0.2 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+}
+
+
+
+.mainheader{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.headermain{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+
+   /* ******************* dropdown on hover */
+
+.bs-example {
+    margin: auto;
+    width: 25%;
+  }
+  
+  @media screen {
+    .dropdown:hover .dropdown-menu,
+    .btn-group:hover .dropdown-menu {
+        display: block;
+    }
+    .dropdown-menu {
+        margin: auto;
+        background-color: #007095;
+    }
+    .dropdown-toggle {
+        margin: auto;
+    }
+    .navbar .dropdown-toggle,
+    .nav-tabs .dropdown-toggle {
+        margin: auto;
+    }
+  }
+
+  /* .dropdown{
+    background-color: #007095;
+  } */
+
+   /* ******************* dropdown on hover */
+
+.navbar{
+    padding: 0px !important;
+}
+
+.brand .logo{
+    width: 245px;
+}
+
+.dropdown-menu  li {
+    font-size: 16px;
+    height: 30px;
+    /* text-align: center; */
+}
+
+.nav-item .active{
+    /* font-weight: 900; */
+    color: #007095 !important;
+}
+
+.nav-item .active:hover{
+    font-weight: 900;
+    color: #fff !important;
+}
+
+.nav-brand{
+    display: none !important;
+}
+
+
+.navbar-nav li a{
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    /* padding-bottom: 0; */
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+.navbar-nav li:nth-child(-n + 5):after {
+    content: "";
+    border-right: 2px solid #fff;
+    display: block;
+    width: 100%;
+    height: 18px;
+    margin-top: -28px;
+}
+
+
+.dropdown-menu li:nth-child(-n + 5):after {
+    display: none;
+}
+
+.nav-link:hover{
+    background-color: #007095;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #007095 !important;
+    color: #fff !important;
+}
+.navbar-nav li {
+    font-size: 16px;
+    /* border-right: 2px solid #fff; */
+    /* height: 28px; */
+}
+
+.top-main {
+ display: flex;
+ align-items: center;
+ justify-content: end;
+ /* padding-right: 25px; */
+ padding-bottom: 10px;
+}
+
+.top-main .icons{
+    margin-right: 20px;
+
+}
+.num{
+    color: #fff;
+    margin-right: 20px;
+}
+
+.num a{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.top-main .icons img{
+    width: 50px;
+}
+
+/* .top-main i {
+    font-size: 18px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 7px;
+    margin-left: 6px;
+} */
+
+
+.icons i:hover{
+    background-color: #fff;
+    color: #c6172f;
+}
+
+.fa-whatsapp{
+    font-size: 18px;
+    border: 1px solid #25D366 !important;
+    color: #25D366 !important;
+    border-radius: 20px;
+    padding: 7px;
+    margin-left: 6px; 
+}
+
+.fa-facebook{
+    font-size: 18px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 7px;
+    margin-left: 6px; 
+    color: #fff ;
+}
+
+.fa-instagram{
+    font-size: 18px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 7px;
+    margin-left: 6px; 
+    color: #fff ;
+}
+
+.fa-linkedin-in{
+    font-size: 18px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 7px;
+    color: #fff ;
+    margin-left: 6px; 
+}
+
+.fa-youtube{
+    font-size: 18px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 7px;
+    color: #fff ;
+    margin-left: 6px; 
+}
+
+.top-main a i{
+    color: #fff;
+    
+}
+.contry_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 230px;
+}
+ 
+
+
+
+
+.carouselBanner{
+    position: relative;
+    /* z-index: -1; */
+    /* top: 0; */
+    width: 100%;
+    margin-top: -145px;
+}
+
+.carousel-item img{
+    height: 100vh;
+}
+
+.carousel-caption {
+    position: absolute;
+    /* right: 0 !important; */
+    bottom: 1.25rem;
+    left: 10%;
+    /* padding-top: 1.25rem; */
+    padding-bottom: 6rem !important;
+    color: #fff;
+    text-align: start !important;
+    z-index: 99;
+}
+.carousel-caption h1{
+    text-transform: uppercase; 
+    font-family: 'Oswald', sans-serif;
+}
+.carousel-caption h1 span{
+    font-size:80px;
+    text-transform: uppercase;
+    color: #f9a545;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-family: 'Oswald', sans-serif;
+}
+
+.carousel-caption a{
+    width: 180px;
+    background-color: #f2aa1d;
+    color: #000;
+    border-radius: 30px;
+    font-weight: 800;
+    
+}
+
+
+/* section{
+    padding: 30px 0;
+} */
+
+.discover {
+    padding: 25px;
+    background: #fff;
+    border-radius: 25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 1;
+}
+
+.discover h1 span{
+    color: #c2332e;
+    font-weight: bolder;
+}
+
+.banner1{
+    background-image: url(../Images/mainbg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+.banner1 h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner1 .explore .exploreCard img{
+    border-radius: 15px;
+}
+.banner1 .explore .exploreCard h5{
+    font-size: 17px;
+    color: #000;
+    text-transform: uppercase;
+    
+}
+.banner1 .explore .exploreCard hr{
+    border: 2px solid #000;
+}
+
+.banner1 .explore .exploreCard .explorebuttons{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.banner1 .explore .exploreCard .explorebuttons .btn:nth-child(1){
+    background-color: #c2332e;
+    color: #fff;
+    border-radius: 0 !important;
+    font-size: 15px;
+}
+
+.banner1 .explore .exploreCard .explorebuttons .btn:nth-child(2){
+    background-color: #039b86;
+    color: #fff;
+    border-radius: 0 !important;
+    font-size: 15px;
+}
+
+
+
+/* Travel */
+
+.Travel{
+    padding: 50px 0px;
+}
+
+.travelcard1{
+    background-image: url(../Images/explore/img7.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 360px;
+    padding: 70px;
+    border-radius: 15px;
+}
+
+.travelcard1 h1{
+    font-size: 32px;
+}
+.travelcard1 .btn{
+    background-color: #f9a545;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+.travelcard2{
+    background-image: url(../Images/explore/img8.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 360px;
+    /* padding: 70px; */
+    border-radius: 15px;
+}
+
+.travelcard2 .airticket{
+    margin-bottom: 35px;
+}
+.travelcard2 .airlines img{
+    width: 200px;
+}
+.travelcard2 .btn{
+    background-color: #f9a545;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+.banner3{
+    background-color: #343434;
+}
+
+.banner3 .MakeMemories{
+    padding: 40px 0;
+}
+.banner3 .MakeMemories .btn{
+    background-color: #f9a545;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    width: 180px;
+}
+
+.banner3 .MakeMemories h1{
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+.banner3 .MakeMemories h1 label span{
+    color: #c2332e;
+}
+.banner3 .MakeMemories h1 label{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+.MakeMemorieswithus{
+    margin-top: 50px;
+}
+
+.banner3 .MakeMemories .memories{
+    padding-right: 40px;
+    height: 180px;
+}
+
+.banner3 .MakeMemories .memories h1{
+    color: #fff;
+    font-size: 21px;
+    border-left: 10px solid #f9a545;
+    margin-bottom: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner3 .MakeMemories .memories h1 label{
+    border: none !important;
+    padding-left: 20px;
+    line-height: 35px;
+}
+.banner3 .MakeMemories .memories p{
+    font-size: 15px;
+}
+.banner3 img{
+    height: 753px;
+}
+
+
+.banner4{
+    background-image: url(../Images/mainbg2.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 40px 0 10px  0;
+    /* margin: 0 0 40px 0; */
+}
+
+
+.banner4 .Unecploretext h1{
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.banner4 .Unecploretext h1 label{
+    border-bottom: 2px solid #000;;
+    padding-bottom: 10px;
+}
+.banner4 .Unecploretext h1 span{
+    color: #c2332e;
+}
+
+.banner4 .Unecploretext{
+    margin-bottom: 50px;
+}
+
+.banner4 .unexplore .unexploreCardCaption{
+    background-color: #f9a545;
+    padding: 6px;
+    position: relative;
+    margin-top: -80px;
+}
+.banner4 .unexplore .unexploreCardCaption h2{
+    text-transform: uppercase;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+.banner5{
+    background-image: url(../Images/img2.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    /* height: 410px; */
+    padding: 60px 0;
+}
+
+.banner5 .helpline{
+    text-align: end;
+}
+
+.banner5 .helpline h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.banner5 .helpline span{
+ color: #f0ff06;
+}
+
+.banner6{
+    background-image: url(../Images/mainbg3.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 50px 0px;
+}
+
+.banner6 .travel h1{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.banner6 .travel h1 span{
+    color: #c2332e;
+}
+
+.mobile{
+    display: none !important;
+}
+.desktop{
+    display: block !important;
+}
+
+.banner6 .travelcard{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 15px;
+    height: 250px;
+}
+.banner6 .travelcard span{
+    margin-left: 20px;
+}
+.footer{
+    background-color: #343434;
+    font-family: 'Oswald', sans-serif;
+}
+.footer .footercontries h5{
+    color: #f9a545;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+.footer .footercontries p{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 5px;
+}
+.footer .travelfooter{
+    border-bottom: 2px solid #fff;  
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footermedia {
+    padding: 15px 0;
+    border-bottom: 2px solid #fff;  
+}
+
+.footerlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.footerlinks a{
+    text-decoration: none;
+}
+
+.footerlinks li{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    list-style: none;
+    padding: 0px 11px;
+}
+.copyrights{
+    text-align: end;
+    font-size: 18px;
+}
+
+
+
+
+/* ABOUT PAGE */
+
+
+.aboutbanner{
+    margin-top: -145px;
+    position: relative;
+    z-index: -1;
+
+}
+
+.aboutbanner .aboutBannerText{
+    background-color: #c6172f;
+    width: 400px;
+    padding: 15px 0; 
+    border-radius: 10px;
+    margin-top: -50px;
+}
+
+.aboutbanner .aboutBannerText h1{
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+}
+
+.aboutbanner p{
+    padding: 30px;
+    /* margin-top: 30px; */
+}
+
+
+.aboutbanner1{
+    background-image: url(../Images/About/img1.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+.aboutbanner1 img{
+    border-radius: 15px;
+}
+
+.aboutbanner1 .mission{
+    padding: 30px;
+}
+.believeourservice{
+    margin-top: 80px;
+}
+.VisionPassion{
+    margin-top: 100px;
+}
+
+.VisionPassion .ourVision{
+    background-color: #c6172f;
+    padding: 25px;
+    color: #fff;
+    height: 185px;
+}
+
+.VisionPassion .ourPassion{
+    background-color: #fff;
+    padding: 25px;
+    color: #000;
+    height: 185px;
+}
+
+
+.aboutbanner2{
+    margin: 20px 0;
+    padding: 30px 0;
+}
+
+
+.aboutbanner2 .ourCoreValues h1{
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.aboutbanner2 .ourCoreValues h1 span{
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+
+.aboutbanner2 .ourCoreValues{
+    margin-bottom: 50px;
+}
+
+.aboutbanner2 .coreCard{
+    height: 230px;
+}
+
+.aboutbanner2 .coreCard h4{
+    font-weight: 900;
+}
+
+
+.aboutbanner3{
+    background-image: url(../Images/About/img3.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 605px;
+    padding: 50px 0 0 0;
+}
+
+
+.aboutbanner3 .WebsiteDisclaimer{
+    background-color: #3e4040;
+    padding: 20px;
+    margin-top:280px;
+}
+
+.aboutbanner4{
+    margin-top:280px;
+}
+
+
+/* TOURS AND PACKAGES */
+
+
+.tour1{
+    margin: 40px 0;
+}
+
+.freeandeasyfreeandeasy{
+    margin-bottom: 50px;
+}
+
+.tour1 .freeandeasy h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.tour1 .freeandeasy h1 span{
+    color: #c6172f;
+}
+
+.tour1 .freeandeasy{
+    margin-bottom: 30px;
+}
+table, th, td {
+    border:1px solid black;
+    color: #000;
+  }
+ 
+
+
+  .tour1  .inclusion ul {
+    list-style: url(../Images/Tours&Packages/listStyle.png);
+ } 
+ .tour1  .inclusion h2{
+    padding-left: 10px;
+ }
+ .tour1  .inclusion ul li{
+    padding-bottom: 5px;
+ }
+
+ .tour1  .exclusion ul {
+    list-style: url(../Images/Tours&Packages/listStyle.png);
+ } 
+
+ .tour1  .exclusion ul li{
+    padding-bottom: 5px;
+ }
+
+ .tour1  .exclusion h2{
+    padding-left: 10px;
+ }
+
+.tour2 {
+    background-color: #3e4040;
+    height: 250px;
+ }
+
+.tour2 .day{
+    color: #fff;
+    margin-top: 50px;
+ }
+.tour2 .day span{
+    border: 1px solid #fff;
+    width: 175px;
+
+ }
+
+.tour2 .daycard{
+    background-color: #c6172f;
+    height: 150px;
+    padding: 20px 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.tour2 .daybtn {
+    background-color: #3e4040;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tour2 .daybtn .btn{
+    border-radius: 0px !important;
+    color: #fff;
+    border-color: #fff;
+    font-size: 13px;
+    cursor: auto;
+}
+
+.tour2 .daybtn .btn:hover{
+    background-color: transparent !important;
+}
+
+.tour3{
+    margin-top: 350px;
+    padding: 25px 0;
+}
+
+.tour3 .termsconditions ul{
+    list-style: url(../Images/Tours&Packages/listStyle.png);
+}
+.tour3 .termsconditions ul li{
+    margin-bottom: 10px;
+}
+
+.tour3 .termsconditions img{
+    width: 660px;
+    margin-bottom: 45px;
+}
+
+
+.tour4{
+    overflow: hidden;
+}
+
+.tour4 .CancellationPolicy{
+    background-color: #36757a;
+    color: #fff;
+    padding: 30px;
+    height: 450px;
+}
+.tour4 .CancellationPolicy ul{
+    list-style: url(../Images/Tours&Packages/listStyle2.png);
+}
+
+.tour4 .RefundPolicy{
+    background-color: #6c6e12;
+    color: #fff;
+    padding: 30px;
+    height: 450px;
+}
+
+
+.tour4  .policyimg{
+    margin-top: -125px;
+}
+
+.tour5{
+    
+    padding: 40px 0;
+}
+
+.tour5 .datacard{
+    background-color: #c9e3f1;
+    padding: 30px;
+    box-shadow: 0px 2px 4px 0px #c9e3f1, 0px 4px 8px 0px #c9e3f1;
+}
+
+.tour5 .consent{
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.tour6{
+    padding: 30px 0;
+    background-color: #c6172f;
+    color: #fff;
+}
+
+.tour6 ul li{
+    list-style: none;
+    margin-bottom: 3px;
+}
+
+
+.tour7{
+    padding: 30px 0;
+}
+
+.tour7{
+    padding: 30px 0;
+}
+
+.tour8 ul li{
+    list-style: none;
+    margin-bottom: 3px;
+}
+
+.tour9{
+    background-color: #3e4040;
+    padding: 30px 0;
+    color: #fff;
+}
+
+.penang1{
+    overflow: hidden;
+    margin: 30px 0;
+}
+
+
+.penang1 .inclusion{
+    padding: 10px 0px 10px 120px;
+
+   }
+.penang1 .inclusion h2{
+    margin-left: 10px;
+}
+
+.penang1 .inclusion ul {
+    list-style: url(../Images/Tours&Packages/listStyle.png);
+ } 
+
+ .penang1 .exclusion ul{
+    list-style: url(../Images/Tours&Packages/listStyle.png);
+ }
+
+ .penang2 .penang2day1{
+    background-color: #3e4040;
+    margin: 20px 0;
+    padding: 20px 0;
+    height: 350px;
+ }
+
+ .penang2 .penang2day1 span {
+    border-bottom: 3px solid #fff;
+    width: 300px;
+}
+
+.penang2 .penang2day1 label{
+    color: #fff;
+    font-weight: bold;
+}
+
+.penang2day1 .penandday{
+    margin-bottom: 50px;
+}
+
+.penang2 .penang2day1 .arrival{
+    padding: 30px;
+    color: #fff;
+}
+
+.penang2  .arrivalbtn{
+    padding: 20px;
+    background-color: #3e4040;
+    text-align: end;
+
+}
+
+.penang2  .arrivalbtn .btn{
+    border-radius: 0px;
+    /* width: 45%; */
+     cursor: auto;
+}
+
+.penang2  .arrivalbtn .btn:hover{
+    background-color: transparent !important;
+}
+
+.penang2 .penang2day2{
+    margin-top: 350px;
+}
+
+.penang2 .penang2day2 span {
+    border-bottom: 3px solid #000;
+    width: 300px;
+}
+.penang2 .penang2day2 label{
+    color: #000;
+    font-weight: bold;
+}
+.penang2day2 .penandday{
+    margin-bottom: 50px;
+}
+
+.penang2day2 .trnasfer{
+    color: #ffff;
+    padding: 30px;
+}
+
+.penang2  .trnasferbtn{
+    padding: 20px;
+    background-color: #3e4040;
+    text-align: end;
+}
+
+.penang2  .trnasferbtn .btn{
+    border-radius: 0px;
+    /* width: 45%; */
+}
+
+
+
+.penang2 .penang2day3{
+    margin-top:50px;
+}
+
+.penang2 .penang2day3 span {
+    border-bottom: 3px solid #000;
+    width: 300px;
+}
+.penang2 .penang2day3 label{
+    color: #000;
+    font-weight: bold;
+}
+.penang2day3 .penandday{
+    margin-bottom: 50px;
+}
+
+.penang2day3  img{
+    height: 530px;
+}
+
+.penang2day3 .PenangHill{
+    color: #ffff;
+    padding: 30px;
+    height: 530px;
+}
+
+.penang2  .trnasferbtn{
+    padding: 20px;
+    background-color: #3e4040;
+    text-align: end;
+}
+
+.penang2  .trnasferbtn .btn{
+    border-radius: 0px;
+    /* width: 45%; */
+    cursor: auto;
+}
+
+.penang2  .trnasferbtn .btn:hover{
+    background-color: transparent !important;
+}
+
+.penang2 .penang2day4{
+    margin-top:50px;
+}
+.penang2 .penang2day4 span {
+    border-bottom: 3px solid #000;
+    width: 300px;
+}
+.penang2 .penang2day4 label{
+    color: #000;
+    font-weight: bold;
+}
+.penang2day4 .penandday{
+    margin-bottom: 50px;
+}
+
+
+
+.penang2day4 .KualaLumpur{
+    color: #ffff;
+    padding: 30px;
+}
+
+
+.penang3{
+    margin-top: 50px;
+    padding: 25px 0;
+    /* overflow: hidden; */
+}
+
+.penang3 .termsconditions ul{
+    list-style: url(../Images/Tours&Packages/listStyle.png);
+}
+.penang3 .termsconditions ul li{
+    margin-bottom: 10px;
+}
+
+.penang3 .termsconditions img{
+    width: 660px;
+    margin-bottom: 45px;
+}
+
+
+/* LANGKAWI */
+
+.Langkawiday3{
+    margin-top: 220px;
+}
+
+
+
+
+
+.honeymoondayeven{
+    color: #fff;
+    height: 120px;
+    text-align: center;
+    padding: 20px;
+}
+
+.sunway2 .arrival{
+    height: 250px;
+}
+
+.penang2 .sunway3{
+    margin-top: 420px;
+}
+
+.sunwaykualatour{
+    color: #fff;
+    height: 315px;
+    /* text-align: center; */
+    padding: 30px;
+}
+
+
+.penang2 .highlands{
+    margin-top: 580px;
+}
+
+.contact_section{
+    margin: 40px 0px;
+}
+.contact_section .contact-details{
+    padding: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+.mobileimg{
+    display: block !important;
+}
+
+@media only screen and (max-width: 500px) {
+    /* DEFAULT */
+
+    .mobileimg{
+        display: none !important;
+    }
+
+
+    .num{
+        display: none;
+    }
+    .brand{
+        display: none !important;
+    }
+
+    .headermain{
+        display: unset;
+        align-items: unset;
+        justify-content: unset;
+    }
+    .mainheader{
+        display: unset;
+        align-items: unset;
+        justify-content: unset;
+    }
+    
+    .contry_buttons{
+        display: none !important;
+    }
+    .top-main{
+        display: none !important;
+    }
+    .nav-brand{
+        display: block !important;
+        width: 220px;
+    }
+    .navbar-nav li:nth-child(-n + 4):after{
+        display: none;
+    }
+    .navbar-nav{
+        background-color: #007095;
+    }
+    .dropdown-menu  li {
+        font-size: 16px;
+        height: 30px;
+        text-align: end;
+    }
+    .carouselBanner {
+        margin-top: -208px;
+    }
+    .carousel-item img {
+        height: 120vh;
+    }
+    .carousel-caption {
+        position: absolute;
+        /* right: 0 !important; */
+        bottom: 2.25rem;
+        left: 10%;
+        padding-top: 1.25rem;
+        padding-bottom: 0rem !important;
+        color: #fff;
+        text-align: center !important;
+        z-index: 99;
+        top: 40%;
+    }
+    .carousel-caption h1 span {
+        font-size: 35px;
+    }
+    .carousel-caption h1 {
+        font-size: 35px;
+    }
+    .carousel-caption .experience br{
+        display: none !important;
+    }
+    .carousel-caption p{
+        font-size: 13px;
+    }
+    .carousel-caption br{
+        display: none;
+    }
+
+    .travelcard1 {
+        height: 257px;
+        padding: 26px;
+        border-radius: 15px;
+    }
+    .travelcard1 h1 {
+        font-size: 20px;
+    }
+    .travelcard2 {
+        margin-top: 25px;
+        height: 290px;
+    }
+
+    .travelcard2 .airticket {
+        margin-bottom: 0px;
+    }
+    .travelcard2 .airlines img {
+        width: 160px;
+    }
+    .unexplorecard{
+        margin-top: 70px;
+    }
+    .banner4 .Unecploretext {
+        margin-bottom: 0px;
+    }
+    .banner4 .Unecploretext h1 {
+        font-size: 30px;
+    }
+    .banner3 img{
+        height: auto;
+    }
+    .banner5 {
+        background-image: url(../Images/img3.png);
+        height: auto;
+        padding: 30px 0;
+    }
+    .banner5 .helpline h1 {
+        font-size: 20px;
+    }
+    .banner6 .travelcard{
+        height: auto;
+    }
+    .travelcard{
+        margin-bottom: 10px;
+    }
+    .mobile{
+        display: block !important;
+       text-align: center;
+        margin-top: 30px;
+    }
+    .banner6 .travel h1{
+        text-align: center;
+    }
+    .desktop{
+       
+        display: none !important;
+        
+    }
+    .footerlogo{
+        text-align: center;
+    }
+    .footercontries{
+        margin-bottom: 30px;
+    }
+    .footerlinks{
+        display: block;
+    }
+    .footermedia{
+        overflow: hidden;
+    }
+    .mediaicons{
+        margin-bottom: 12px;
+    }
+    .copyrights{
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+    /* ABOUTPAGE */
+    .aboutbanner img{
+        height: 100vh;
+    }
+    .aboutbanner {
+        margin-top: -205px;
+    }
+    .aboutbanner p {
+        padding: 14px;
+    }
+    .aboutbanner1 .mission{
+        padding: 25px;
+    }
+    .aboutbanner1 .mission h2{
+        text-align: center;
+    }
+    .VisionPassion .ourVision {
+        padding: 15px;
+        height: 120px;
+        text-align: center;
+    }
+    .VisionPassion .ourPassion {
+        padding: 15px;
+        height: 130px;
+        text-align: center;
+    }
+    .aboutbanner2 .ourCoreValues h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .aboutbanner2 .coreCard {
+        height: auto;
+    }
+    .aboutbanner3 {
+        background-image: url(../Images/About/img3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: auto;
+        padding: 50px 0 0 0;
+    }
+    .aboutbanner3 .WebsiteDisclaimer {
+        background-color: #3e4040;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .aboutbanner3 p{
+        font-weight: bold;
+    }
+    .aboutbanner4 {
+        margin-top: 0px;
+    }
+
+
+    /* tours&packages page */
+    .tour1 .freeandeasy h1 {
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .tour3 .termsconditions img {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .tour2 {
+        background-color: #3e4040;
+        height: auto;
+    }
+    .tour2 .day {
+        color: #fff;
+        margin-top: 20px;
+    }
+    .penang3 .termsconditions img {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    .exclusion{
+        margin-top: 20px;
+    }
+    .exclusion h2{
+        margin-left: 10px;
+    }
+
+
+    .tour3 {
+        margin-top: 0px;
+        padding: 25px 0;
+    }
+    .tour4 .CancellationPolicy {
+        height: auto;
+    }
+    .tour4 .RefundPolicy {
+        height: auto;
+    }
+    .tour4 .policyimg {
+        margin-top: 0px;
+    }
+    .penang1 .inclusion {
+        padding: 0px ;
+    }
+
+    .penang2 .penang2day1 {
+        height: auto;
+    }
+    .penang2 .penang2day2 {
+        margin-top: 0px;
+    }
+    .penang2 .penang2day2 label {
+        color: #fff;
+        font-weight: bold;
+    }
+    .penang2 .penang2day2 span {
+        border-bottom: 3px solid #fff;
+        width: 200px;
+    }
+    .penang2day3 img {
+        height: auto;
+    }
+    .penang2{
+        background-color: #3e4040;
+    }
+    .penang2 .penang2day1 span {
+        border-bottom: 3px solid #fff;
+        width: 228px;
+    }
+    .penang2 .penang2day1 .arrivalbtn {
+        text-align: center;
+    }
+
+    .penang2 .penang2day3 span {
+        border-bottom: 3px solid #fff;
+        width: 200px;
+    }
+    .penang2 .penang2day3 label {
+        color: #fff;
+        font-weight: bold;
+    }
+    .penang2 .trnasferbtn {
+        text-align: center;
+    }
+    .penang2 .penang2day4 span {
+        border-bottom: 3px solid #fff;
+        width: 200px;
+    }
+    .penang2 .penang2day4 label {
+        color: #fff;
+        font-weight: bold;
+    }
+
+
+
+    /* LANGKAWI */
+
+    .penang2 .penang2day3 {
+        margin-top: 0px;
+    }
+
+    .Langkawiday3 {
+        margin-top: 0px;
+    }
+    .penang2day3 .PenangHill {
+        height: auto;
+    }
+    .penang2 .penang2day4 {
+        margin-top: 25px;
+    }
+
+    /* SUNWAY LAGOON */
+    .sunway2 .arrival {
+        height: auto;
+    }
+    .sunwaykualatour {
+        height: auto;
+    }
+
+
+
+    /* honeymoon */
+
+
+    
+}
+
+
+
+.input_field {
+    position: relative;
+    height: 45px;
+    margin-top: 15px;
+    width: 100%;
+  }
+  .refresh_button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: #826afb;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .refresh_button:active {
+    transform: translateY(-50%) scale(0.98);
+  }
+  .input_field input,
+  .button button {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+  }
+  .input_field input {
+    padding: 0 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .captch_box input {
+    color: #6b6b6b;
+    font-size: 22px;
+    pointer-events: none;
+  }
+  .captch_input input:focus {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+  }
+  .message {
+    font-size: 14px;
+    margin: 14px 0;
+    color: #826afb;
+    display: none;
+  }
+  .message.active {
+    display: block;
+  }
+  .button button {
+    background: #826afb;
+    color: #fff;
+    cursor: pointer;
+    user-select: none;
+  }
+  .button button:active {
+    transform: scale(0.99);
+  }
+  .button.disabled {
+    opacity: 0.6;
+    pointer-events: none;
+  }
+  
